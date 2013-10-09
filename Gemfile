@@ -18,3 +18,5 @@ group :assets do
 end
 
 gem 'jquery-rails', '3.0.4'
+
+gem 'turbolinks', '1.3.0'
