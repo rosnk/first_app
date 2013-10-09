@@ -6,6 +6,10 @@ group :development do
 	gem 'mysql2', '0.3.13'
 end
 
+group :production, :staging do
+	gem 'mysql2', '0.3.13'
+end
+
 group :assets do
 	gem 'sass-rails', '4.0.0'
 	gem 'coffee-rails', '4.0.0'
