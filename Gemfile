@@ -9,7 +9,7 @@ group :development do
 end
 
 group :production, :staging do
-	gem 'mysql2', '0.3.13'
+	gem 'pg'
 	gem 'rails_12factor'
 end
 
